@@ -39,7 +39,7 @@
           .executable;
 
         devShells.default = pkgs.mkShell {
-          packages = with pkgs; [ lean4 ];
+          packages = with pkgs; [ elan ];
         };
       };
     };
